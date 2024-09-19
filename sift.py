@@ -2,7 +2,7 @@ import cv2
 import matplotlib.pyplot as plt
 import numpy as np
 
-image1 = cv2.imread(r'/home/isaac/Desktop/pcv/pcv_lab/test.webp')
+image1 = cv2.imread(r'/home/isaac/Desktop/pcv/pcv_lab/image3.png')
 
 if image1 is None:
     print('Could not open or find the image')
