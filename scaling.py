@@ -5,7 +5,7 @@ img = cv.imread(r'/home/isaac/Desktop/pcv/pcv_lab/images.jpeg', 0)
 
 rows, cols = img.shape
 
-img_shrinked = cv.resize(img, (250, 200), interpolation=cv.INTER_AREA)
+img_shrinked = cv.resize(img, (rows, cols), interpolation=cv.INTER_AREA)
 
 cv.imshow('shrinked', img_shrinked)
 
